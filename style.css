@@ -35,3 +35,37 @@
 .item:hover{
     color: blue;
 }
+
+.ban-img{
+    width: 300px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url('images/background.png'), linear-gradient(45deg, rgb(8,8,8), rgb(53, 53, 53));
+    color: white;
+}
+
+.title{
+    font-size: 54px;
+    font-weight: bold;
+
+}
+
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 13px 20px;
+    outline: none;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
